@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imobiliária Guarda | António Prudente de Oliveira</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+    font-family:Poppins,sans-serif;
+    background:#08111f;
+    color:white;
+    scroll-behavior:smooth;
+}
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(5,10,20,.45);
+    backdrop-filter:blur(12px);
+    z-index:1000;
+}
+
+.logo{
+    color:#34d399;
+    font-size:28px;
+    font-weight:700;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+}
+
+.hero{
+    height:100vh;
+    background:
+      linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75)),
+      url("images/hero.jpg") center/cover;
+    display:flex;
+    align-items:center;
+    padding:8%;
+}
+
+.hero h1{
+    font-size:60px;
+    max-width:700px;
+}
+
+.hero p{
+    margin:20px 0;
+    color:#ddd;
+    font-size:18px;
+    max-width:600px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 30px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    margin:10px 10px 0 0;
+}
+
+.btn-whatsapp{background:#25D366;color:white;}
+.btn-facebook{background:#1877F2;color:white;}
+.btn-email{background:#EA4335;color:white;}
+
+section{
+    padding:90px 8%;
+}
+
+h2{
+    color:#34d399;
+    font-size:36px;
+    margin-bottom:25px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#10192d;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.card span{
+    font-size:40px;
+}
+
+.facebook-box{
+    background:#10192d;
+    border:2px solid #1877F2;
+    border-radius:25px;
+    padding:45px;
+    text-align:center;
+}
+
+.facebook-box h3{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.contactos{
+    background:#10192d;
+    border-radius:25px;
+    padding:40px;
+}
+
+.contactos p{
+    margin:15px 0;
+    color:#ddd;
+    font-size:18px;
+}
+
+footer{
+    background:#050b16;
+    text-align:center;
+    padding:25px;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Imobiliária Guarda</div>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#facebook">Imóveis</a>
+        <a href="#contactos">Contacto</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>O imóvel certo começa com a escolha certa.</h1>
+
+        <p>
+            Na Imobiliária Guarda ajudamos a comprar, vender e arrendar imóveis
+            com profissionalismo, confiança e acompanhamento personalizado em toda
+            a região da Guarda e Serra da Estrela.
+        </p>
+
+        <a class="btn btn-whatsapp" href="https://wa.me/351964049633" target="_blank">
+            WhatsApp
+        </a>
+
+        <a class="btn btn-facebook" href="https://www.facebook.com/100070196019288/" target="_blank">
+            Facebook
+        </a>
+    </div>
+</section>
+
+<section id="sobre">
+
+<h2>Quem Somos</h2>
+
+<p style="color:#ddd;line-height:1.9;font-size:18px;max-width:900px;">
+A <strong>Imobiliária Guarda – António Prudente de Oliveira</strong> é uma empresa dedicada ao mercado imobiliário da Guarda e da Serra da Estrela.
+Trabalhamos diariamente para ajudar famílias e investidores a encontrar o imóvel ideal, sempre com um atendimento próximo, transparente e profissional.
+</p>
+
+</section>
+
+<section id="servicos">
+
+<h2>Os nossos serviços</h2>
+
+<div class="cards">
+
+<div class="card">
+<span>🏡</span>
+<h3>Compra de Imóveis</h3>
+<p>Ajudamos a encontrar a casa ideal para si.</p>
+</div>
+
+<div class="card">
+<span>🔑</span>
+<h3>Venda de Imóveis</h3>
+<p>Divulgamos o seu imóvel e acompanhamos todo o processo.</p>
+</div>
+
+<div class="card">
+<span>📄</span>
+<h3>Arrendamento</h3>
+<p>Casas, apartamentos, lojas e outros imóveis para arrendar.</p>
+</div>
+
+<div class="card">
+<span>🤝</span>
+<h3>Acompanhamento Completo</h3>
+<p>Estamos consigo desde a visita até à escritura.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="facebook">
+
+<div class="facebook-box">
+
+<h3>🏘️ Veja todos os nossos imóveis</h3>
+
+<p style="color:#ccc;font-size:18px;line-height:1.8;max-width:700px;margin:auto;">
+Publicamos regularmente todas as casas, apartamentos, moradias, quintas, terrenos e oportunidades na nossa página oficial do Facebook.
+Clique no botão abaixo para ver todos os imóveis disponíveis e as novidades.
+</p>
+
+<br>
+
+<a class="btn btn-facebook"
+href="https://www.facebook.com/100070196019288/"
+target="_blank">
+
+Ver todos os imóveis no Facebook
+
+</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Porque escolher a Imobiliária Guarda?</h2>
+
+<div class="cards">
+
+<div class="card">
+<span>⭐</span>
+<h3>Confiança</h3>
+<p>Atendimento sério, transparente e personalizado.</p>
+</div>
+
+<div class="card">
+<span>📍</span>
+<h3>Conhecimento da Região</h3>
+<p>Especialistas no mercado imobiliário da Guarda e Serra da Estrela.</p>
+</div>
+
+<div class="card">
+<span>💬</span>
+<h3>Apoio ao Cliente</h3>
+<p>Esclarecemos todas as dúvidas durante o processo de compra ou venda.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contactos">
+
+<div class="contactos">
+
+<h2>Contacte-nos</h2>
+
+<p><strong>📞 Telefone:</strong> +351 964 049 633</p>
+
+<p><strong>📧 Email:</strong> antoniogouveiaoliveira@gmail.com</p>
+
+<p><strong>📍 Morada:</strong> Rua Almirante Gago Coutinho nº 2, 6300-507 Guarda</p>
+
+<div style="margin-top:25px;display:flex;flex-wrap:wrap;gap:15px;">
+
+<a class="btn btn-whatsapp"
+href="https://wa.me/351964049633"
+target="_blank">
+
+WhatsApp
+
+</a>
+
+<a class="btn btn-email"
+href="mailto:antoniogouveiaoliveira@gmail.com">
+
+Enviar Email
+
+</a>
+
+<a class="btn btn-facebook"
+href="https://www.facebook.com/100070196019288/"
+target="_blank">
+
+Facebook
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Imobiliária Guarda – António Prudente de Oliveira
+
+</footer>
+
+</body>
+</html>
